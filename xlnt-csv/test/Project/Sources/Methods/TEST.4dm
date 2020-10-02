@@ -1,0 +1,12 @@
+//%attributes = {}
+C_TEXT:C284($src)
+ARRAY TEXT:C222($sheets;0)
+C_TEXT:C284($password)
+
+$src:=System folder:C487(Desktop:K41:16)+"dgw-project.xlsx"
+
+get xlsx sheets ($src;$sheets;$password)
+
+$dst:=System folder:C487(Desktop:K41:16)+"testtesttest.csv"
+
+convert xlsx to csv ($src;$sheets;$password;$dst)
