@@ -19,6 +19,12 @@ get xlsx sheets ($src;$sheets;$password)
 （つづき）シート名（複数指定可）のデータをCSVファイルに書き出す
 
 ```4d
-$dst:=System folder(Desktop)+"sheet1.csv"
+$dst:=System folder(Desktop)+"test"
 convert xlsx to csv ($src;$sheets;$password;$dst)
 ```
+
+* カンマ以外のフィールド区切りは``$5``で指定できます。
+
+* ``CRLF``以外のフィールド区切りは``$6``で指定できます。
+
+* 値のエスケープは特にしません。
