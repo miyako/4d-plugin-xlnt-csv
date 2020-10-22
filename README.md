@@ -28,3 +28,5 @@ convert xlsx to csv ($src;$sheets;$password;$dst)
 * ``CRLF``以外のフィールド区切りは``$6``で指定できます。
 
 * 値のエスケープは特にしません。
+
+* シート名がファイル名になります。
