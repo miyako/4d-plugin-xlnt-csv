@@ -14,14 +14,24 @@
 #include "4DPluginAPI.h"
 #include "xlnt/xlnt.hpp"
 
+#include "xlsxio_read.h"
+#include "xlsxio_write.h"
+
 #include "ARRAY_TEXT.h"
 #include "C_TEXT.h"
 
 #include <time.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+#if VERSIONWIN
+#include <process.h>
+#endif
 
 #pragma mark -
 
 void convert_xlsx_to_csv(PA_PluginParameters params);
+void convert_xlsx_to_csv_v2(PA_PluginParameters params);
 void get_xlsx_sheets(PA_PluginParameters params);
 
 #endif /* PLUGIN_XLNT_CSV_H */
