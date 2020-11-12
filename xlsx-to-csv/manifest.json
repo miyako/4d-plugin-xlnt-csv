@@ -1,0 +1,16 @@
+{
+    "name": "xlsx-to-csv",
+    "id": 20000,
+    "commands": [
+        {
+            "theme": "xlsx-to-csv",
+            "syntax": "convert xlsx to csv(&T;&Y;&T;&T;&T;&T;&L)",
+            "threadSafe": true
+        },
+        {
+            "theme": "xlsx-to-csv",
+            "syntax": "get xlsx sheets(&T;&Y;&T)",
+            "threadSafe": true
+        }
+    ]
+}
