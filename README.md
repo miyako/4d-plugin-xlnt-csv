@@ -33,4 +33,4 @@ convert xlsx to csv ($src;$sheets;$password;$dst)
 
 * シートの配列を指定しなかった場合，すべてのシートが対象になります。
 
-[miyako.github.io](https://miyako.github.io/2020/11/11/4d-plugin-xlnt-csv.html)
+[miyako.github.io](https://miyako.github.io/2020/11/11/4d-plugin-xlsx-to-csv.html)
